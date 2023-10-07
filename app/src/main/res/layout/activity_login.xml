@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/title_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:text="Inicio de Sesión"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:layout_marginBottom="50dp"
+        />
+
+
+    <EditText
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/account_circle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/input"
+        android:hint="Correo electrónico"
+        android:textColorHint="@color/white"
+        android:paddingVertical="15dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginBottom="20dp"
+
+
+        />
+
+
+    <EditText
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/outline_lock_24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/input"
+        android:hint="Contraseña"
+        android:textColorHint="@color/white"
+        android:paddingVertical="15dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:layout_marginHorizontal="50dp"
+        />
+
+    <Button
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:backgroundTint="@color/primary"
+        android:text="@string/sign_in_button"
+        android:textSize="20sp"
+        app:strokeColor="@color/border"
+        app:strokeWidth="1dp" />
+
+</LinearLayout>
