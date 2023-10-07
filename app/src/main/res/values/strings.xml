@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QR Event</string>
+    <string name="subtitle_home">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="title">Bienvenido</string>
+    <string name="sign_in_button">Iniciar Sesión</string>
+    <string name="sing_up_button">Registrate</string>
+</resources>
