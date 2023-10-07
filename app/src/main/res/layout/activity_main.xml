@@ -47,6 +47,7 @@
         app:strokeColor="@color/border"
         app:strokeWidth="1dp" />
     <Button
+        android:id="@+id/sign_up_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
