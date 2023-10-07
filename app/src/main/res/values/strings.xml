@@ -4,4 +4,9 @@
     <string name="title">Bienvenido</string>
     <string name="sign_in_button">Iniciar Sesión</string>
     <string name="sing_up_button">Registrate</string>
+    <string name="text_signup_button">¿Registrate?</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="title_signIn">Inicio de Sesión</string>
 </resources>
